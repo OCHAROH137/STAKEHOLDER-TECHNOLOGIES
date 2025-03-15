@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectPackageBtns = document.querySelectorAll('.select-package-btn');
     
     // Set initial time (45 minutes in seconds)
-    let timeLeft = 45 * 60;
+    let timeLeft = 1 * 60;
     
     // Format time function
     function formatTime(seconds) {
