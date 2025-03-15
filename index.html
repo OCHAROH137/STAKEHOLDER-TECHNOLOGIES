@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Stakeholder Technologies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="welcome-popup" id="welcomePopup">
+        <div class="welcome-card">
+            <div class="close-btn" id="closeBtn">
+                <i class="fas fa-times"></i>
+            </div>
+            
+            <div class="timer-container">
+                <div class="timer-bar" id="timerBar"></div>
+                <div class="timer-text" id="timerText">30</div>
+            </div>
+            
+            <div class="logo">
+                <span class="logo-text"><span class="stake">Stakeholder</span> Technologies</span>
+            </div>
+            
+            <div class="welcome-content">
+                <h1>You're Connected!</h1>
+                <p class="subtitle">Welcome to high-speed internet</p>
+                
+                <div class="connection-info">
+                    <div class="info-item">
+                        <i class="fas fa-wifi"></i>
+                        <div class="info-text">
+                            <h3>Network</h3>
+                            <p id="network-name">Stakeholder_WiFi</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-signal"></i>
+                        <div class="info-text">
+                            <h3>Signal</h3>
+                            <p id="signal-strength">Excellent</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <div class="info-text">
+                            <h3>Speed</h3>
+                            <p id="connection-speed">Up to 300 Mbps</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="action-buttons">
+                    <button class="speed-test-btn">
+                        <i class="fas fa-gauge-high"></i> Speed Test
+                    </button>
+                    <button class="main-site-btn">
+                        <i class="fas fa-globe"></i> Visit Website
+                    </button>
+                </div>
+            </div>
+            
+            <div class="special-offer">
+                <div class="offer-badge">Limited Time</div>
+                <h2>Upgrade to Premium</h2>
+                <p>Get 50% off your first 3 months!</p>
+                <a href="https://wa.me/254742748116" target="_blank" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Chat with Support
+                </a>
+            </div>
+            
+            <div class="footer">
+                <p>&copy; 2025 Stakeholder Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner"></div>
+        <p>Testing connection speed...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
